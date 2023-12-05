@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageviewDrag"
+        android:src="@drawable/baseline_drag_handle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextOption"
+        android:hint="@string/hint_option"
+        app:layout_constraintTop_toTopOf="@id/imageviewDrag"
+        app:layout_constraintBottom_toBottomOf="@id/imageviewDrag"
+        android:layout_marginStart="@dimen/_10sdp"
+        app:layout_constraintStart_toEndOf="@id/imageviewDrag"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_width="0dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageViewDelete"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/baseline_cancel"
+        app:layout_constraintTop_toTopOf="@id/editTextOption"
+        app:layout_constraintBottom_toBottomOf="@id/editTextOption"
+        app:layout_constraintEnd_toEndOf="@id/editTextOption"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

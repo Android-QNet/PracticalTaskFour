@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="custom_component_tabs">
+        <attr name="tabDrawableActive" format="reference" />
+        <attr name="tabDrawable" format="reference" />
+        <attr name="tabLabel" format="string" />
+        <attr name="tabSelected" format="boolean" />
+        <attr name="showDrawable" format="boolean" />
+        <attr name="showTextBold" format="boolean" />
+    </declare-styleable>
+
+</resources>

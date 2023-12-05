@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PracticalTaskFour</string>
+    
+    <string name="placeholder_poll">The Polling Grounds Await Your Questions</string>
+    <string name="placeholder_history">No History Available. Contribute to Poll and See Your Journey Here.</string>
+    <string name="current_poll">Current Polls</string>
+    <string name="history">History</string>
+    <string name="poll_question">Poll question</string>
+    <string name="answer_option">Answer options</string>
+    
+    <string name="button_add_option">Add Option</string>
+    <string name="button_create">Create</string>
+    
+    <string name="hint_ask_question">Ask a question</string>
+    <string name="hint_option">Option</string>
+
+        
+        
+        
+</resources>
