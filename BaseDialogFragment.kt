@@ -1,4 +1,4 @@
-package com.capermint.testgullychamps.presentation.dialog
+package com.presentation.dialog
 
 import android.app.Dialog
 import android.os.Bundle
