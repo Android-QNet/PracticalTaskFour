@@ -1,4 +1,4 @@
-package com.capermint.testgullychamps.presentation.utility
+package com.presentation.utility
 
 import android.os.Handler
 import android.os.Looper
