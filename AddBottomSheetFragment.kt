@@ -1,4 +1,4 @@
-package com.capermint.testgullychamps.presentation.bottomsheet
+package com.presentation.bottomsheet
 
 import android.app.Activity
 import android.content.Intent
@@ -11,17 +11,17 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.widget.doAfterTextChanged
 import androidx.core.widget.doOnTextChanged
 import androidx.fragment.app.FragmentManager
-import com.capermint.testgullychamps.data.models.AddMoneyRequest
-import com.capermint.testgullychamps.data.models.AppliedPromocodeData
-import com.capermint.testgullychamps.data.models.PromocodeDataListData
-import com.capermint.testgullychamps.data.models.UserData
-import com.capermint.testgullychamps.databinding.BottomsheetAddMoneyBinding
-import com.capermint.testgullychamps.presentation.profile.PromoCodeActivity
-import com.capermint.testgullychamps.presentation.utility.PrefKeys
-import com.capermint.testgullychamps.presentation.utility.gone
-import com.capermint.testgullychamps.presentation.utility.setSafeOnClickListener
-import com.capermint.testgullychamps.presentation.utility.showToastError
-import com.capermint.testgullychamps.presentation.utility.visible
+import com.data.models.AddMoneyRequest
+import com.data.models.AppliedPromocodeData
+import com.data.models.PromocodeDataListData
+import com.data.models.UserData
+import com.databinding.BottomsheetAddMoneyBinding
+import com.presentation.profile.PromoCodeActivity
+import com.presentation.utility.PrefKeys
+import com.presentation.utility.gone
+import com.presentation.utility.setSafeOnClickListener
+import com.presentation.utility.showToastError
+import com.presentation.utility.visible
 import com.google.gson.Gson
 import java.lang.Exception
 
@@ -92,7 +92,7 @@ class AddMoneyBottomSheetFragment : BaseBottomSheetDialogFragment() {
 //        val editTextAmount = binding.findViewById<AppCompatEditText>(R.id.editTextAmount)
 
 
-        //Shubham Jain Code -- Dated 28 July 2023
+      
         binding.textViewBalance.text = "₹ ${userData?.usable_coin_balance}"
 
         binding.button100.setOnClickListener {
