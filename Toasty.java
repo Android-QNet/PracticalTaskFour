@@ -1,4 +1,4 @@
-package com.capermint.testgullychamps.presentation.utility.libraries.toasty;
+package com.presentation.utility.libraries.toasty;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -18,7 +18,7 @@ import androidx.annotation.CheckResult;
 import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 
-import com.capermint.testgullychamps.R;
+import com.R;
 
 
 @SuppressLint("InflateParams")
