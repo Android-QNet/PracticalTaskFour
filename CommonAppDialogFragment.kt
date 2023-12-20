@@ -1,4 +1,4 @@
-package com.capermint.testgullychamps.presentation.dialog
+package com.presentation.dialog
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.fragment.app.FragmentManager
-import com.capermint.testgullychamps.databinding.DialogCommonBinding
-import com.capermint.testgullychamps.presentation.utility.gone
-import com.capermint.testgullychamps.presentation.utility.lazyFast
+import com.databinding.DialogCommonBinding
+import com.presentation.utility.gone
+import com.presentation.utility.lazyFast
 
 class CommonAppDialogFragment : BaseDialogFragment() {
 
