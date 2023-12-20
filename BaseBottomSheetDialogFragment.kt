@@ -1,10 +1,10 @@
-package com.capermint.testgullychamps.presentation.bottomsheet
+package com.presentation.bottomsheet
 
 import android.annotation.SuppressLint
 import android.app.Dialog
 import android.os.Bundle
 import android.view.View
-import com.capermint.testgullychamps.R
+import com.R
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
