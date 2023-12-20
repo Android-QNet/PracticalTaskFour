@@ -1,4 +1,4 @@
-package com.capermint.testgullychamps.presentation.utility
+package com.presentation.utility
 
 import android.app.Activity
 import android.content.Context
@@ -38,11 +38,11 @@ import androidx.databinding.BindingAdapter
 import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
-import com.capermint.testgullychamps.R
-import com.capermint.testgullychamps.presentation.core.BaseActivity
-import com.capermint.testgullychamps.presentation.core.GlideApp
-import com.capermint.testgullychamps.presentation.utility.AppConstant.Companion.INPUTFORMAT
-import com.capermint.testgullychamps.presentation.utility.libraries.toasty.Toasty
+import com.R
+import com.presentation.core.BaseActivity
+import com.presentation.core.GlideApp
+import com.presentation.utility.AppConstant.Companion.INPUTFORMAT
+import com.presentation.utility.libraries.toasty.Toasty
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 import com.makeramen.roundedimageview.RoundedImageView
