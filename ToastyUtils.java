@@ -1,4 +1,4 @@
-package com.capermint.testgullychamps.presentation.utility.libraries.toasty;
+package com.presentation.utility.libraries.toasty;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -13,7 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.content.res.AppCompatResources;
 import androidx.core.content.ContextCompat;
 
-import com.capermint.testgullychamps.R;
+import com.R;
 
 final class ToastyUtils {
     private ToastyUtils() {
